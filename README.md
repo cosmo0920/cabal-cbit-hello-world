@@ -7,7 +7,9 @@ cabalでCの構造体をHaskellに取り込むサンプル。
 c2hsc <header name>.h --prefix=TypeC
 ```
 
-とした後、module名を<project name>.cabalへ追記する。
+とした後、hscファイルをcbits以下に配置。
+
+また、module名を<project name>.cabalへ追記する。
 
 例：
 
